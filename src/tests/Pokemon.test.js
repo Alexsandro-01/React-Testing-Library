@@ -5,7 +5,7 @@ import renderWithRouter from './renderWithRouter';
 import Pokemon from '../components/Pokemon';
 import pokemons from '../data';
 
-describe('7 - Teste se é renderizado um card com as informações de determinado pokémon',
+describe('6 - Teste se é renderizado um card com as informações de determinado pokémon',
   () => {
     it('Testa se o nome, peso médio e a imagem do Pokemon são exibidos', () => {
       renderWithRouter(<Pokemon

@@ -12,5 +12,3 @@ const renderWithRouter = (component) => {
 };
 
 export default renderWithRouter;
-
-// npx stryker run ./stryker/Pokedex.conf.json
